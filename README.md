@@ -1,6 +1,7 @@
-#React-JS Assignment
-
-##Requirement:
+React-JS Assignment
+==================
+Requirement:
+------------------
 Implement the NYT news website built with React / Redux stack have to be server side (Can read the content by bot) implement as the best way in term of UX/UI and optimization
 Minimum pages / scope of website should be
 * Homepage: list the most popular articles
@@ -17,5 +18,6 @@ Homepage can be search the article by name by search bar, if the searched trigge
 * Extend pages by use other API in the reference
 * Using Next.js
 
-###Reference (API)
+Reference (API)
+------------------
 https://developer.nytimes.com
