@@ -7,7 +7,7 @@ const Article = ({article}) => (
       <p className="text-info">
         {article.abstract}
       </p>
-      <a className="text-success">[read more]</a>
+      {/* <a className="text-success">[read more]</a> */}
       <div className="badge">{article.published_date}</div>
       <div className="float-right">
         <a href={article.url}>read the origin post</a>

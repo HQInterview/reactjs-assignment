@@ -2,7 +2,10 @@ import Layout from '../components/layout';
 
 const About = () => (
   <Layout>
-    <p>This is the about page</p>
+    <h1>About Me</h1>
+    <p>
+      I am using nextjs with isomorphic-unfetch and bootstrap.
+    </p>
   </Layout>
 )
 
