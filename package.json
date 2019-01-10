@@ -1,13 +1,12 @@
 {
   "name": "assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "NYT popular articles",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next start"
   },
   "keywords": [],
   "author": "",

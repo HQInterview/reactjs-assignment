@@ -6,9 +6,13 @@ const Layout = (props) => (
   <div>
     <Head>
       <title>My file upload</title>
+      <link rel="stylesheet" 
+        href="https://bootswatch.com/4/slate/bootstrap.min.css"/>
     </Head>
     <Navbar />
-    {props.children}
+    <div className="container">
+      { props.children }
+    </div>
   </div>
 );
 
