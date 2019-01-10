@@ -3,10 +3,8 @@ import { connect } from 'react-redux'
 import Searchbar from '../components/searchbar';
 
 class Search extends React.Component {
-
   static getInitialProps ({ reduxStore, req }) {
-    const isServer = !!req
-    return {}
+    return {...reduxStore}
   }
 
   render () {

@@ -2,19 +2,19 @@ import { connect } from 'react-redux'
 import Layout from '../components/layout'
 import { search, typeKey } from '../store';
 
-const SearchBar = (props) => (
+const SearchBar = ({search, typeKey, list, searchKey}) => (
   <Layout>
     <div className="form-inline">
       <input className="form-control mr-sm-2" 
         type="text" placeholder="Search" style={{width: '82%'}}
-        onChange={e => this.props.typeKey({searchKey : e.target.value})} />
+        onChange={e => typeKey({searchKey : e.target.value})} />
       <button className="btn btn-secondary my-2 my-sm-0" 
-        onClick={() => this.props.search(this.props.searchKey)}>
+        onClick={() => search(searchKey)}>
         Search
       </button>
     </div>
     <h1>Search result</h1>
-    {this.props.list[0]}
+    { list[0] }
   </Layout>
 )
 
