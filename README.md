@@ -1,23 +1,61 @@
-React-JS Assignment
-==================
-Requirement:
-------------------
-Implement the NYT news website built with React / Redux stack have to be server side (Can read the content by bot) implement as the best way in term of UX/UI and optimization
-Minimum pages / scope of website should be
-* Homepage: list the most popular articles
-* Detail page: show the article
-* Navigation
+# Most popular articles from New York Times
+An opinionated Next.js project with Express, Redux, Styled components, and Jest.
 
-Homepage can be search the article by name by search bar, if the searched triggered, page should be updated without reloading whole page
-* Should have be using Redux inside of the projects
-* Should have use styled-component
-* Write good Readme.md
-* Should have be Responsive design work on desktop and mobile
+## Article Details
+Next.js is an awesome and minimalistic framework to make a modern universal react app. Here we show the article details of specific articles selected by user
 
-**Plus Points**
-* Extend pages by use other API in the reference
-* Using Next.js
+## Features
+- Dynamic routing with [express](https://github.com/expressjs/express) and [next-routes](https://github.com/fridays/next-routes).
+- State management with [redux](https://github.com/reactjs/redux), [react-redux](https://github.com/reactjs/react-redux), and [next-redux-wrapper](https://github.com/kirill-konshin/next-redux-wrapper)
+- Unit testing with [jest](https://github.com/facebook/jest)
+- Linting with [standard](https://github.com/standard/standard)
+](https://github.com/facebook/immutable-js/), [dotenv](https://github.com/motdotla/dotenv), and more...
 
-Reference (API)
-------------------
-https://developer.nytimes.com
+## Getting started
+```
+git clone https://github.com/VidhiSarkar/Nyt.git my-project
+cd my-project
+npm install
+npm start
+```
+
+Then open `http://localhost:3000/` to see your app.
+
+## Structure overview
+```
+├── README.md
+├── next.config.js
+├── package.json
+├── pages
+│   ├── _document.js
+│   ├── articleDetails.js
+│   └── index.js
+├── routes.js
+├── server
+│   └── index.js
+├── src
+│   ├── actions
+│   │   └── index.js
+│   ├── components
+│   │   └── Article
+│	│	└── Drawer
+│	│	└── Layout
+│	│	└── Loader
+│   ├── config.js
+│   ├── utils
+│   │   └── nyt.js
+│   ├── reducers
+│   │   ├── index.js
+│   ├── store
+│   │   └── createStore.js
+│   ├── styles
+│   │   ├── SearchResults.scss
+│   │   └── base.scss
+│   └── test
+│       ├── __mocks__
+│       │   └── styleMock.js
+│       ├── components
+│       │   └── Article.test.js
+│       └── jest.setup.js
+└── yarn.lock
+```
