@@ -7,13 +7,11 @@ Next.js is an awesome and minimalistic framework to make a modern universal reac
 ## Features
 - Dynamic routing with [express](https://github.com/expressjs/express) and [next-routes](https://github.com/fridays/next-routes).
 - State management with [redux](https://github.com/reactjs/redux), [react-redux](https://github.com/reactjs/react-redux), and [next-redux-wrapper](https://github.com/kirill-konshin/next-redux-wrapper)
-- Unit testing with [jest](https://github.com/facebook/jest)
 - Linting with [standard](https://github.com/standard/standard)
-](https://github.com/facebook/immutable-js/), [dotenv](https://github.com/motdotla/dotenv), and more...
 
 ## Getting started
 ```
-git clone https://github.com/VidhiSarkar/Nyt.git my-project
+git clone https://github.com/HQInterview/reactjs-assignment.git my-project
 cd my-project
 npm install
 npm start
